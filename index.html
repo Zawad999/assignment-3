@@ -20,6 +20,9 @@
                 'button-bg-op': 'rgba(171, 239, 95, 0.5)',
                 'button-bg-op-2': 'rgba(171, 239, 95, 0.2)',
                 'body-bg': 'rgba(244, 244, 244, 1.00)',
+              },
+              borderRadius: {
+                'custom-32':'32px',
               }
             }
           }
@@ -41,7 +44,7 @@
 </head>
 <body class="font-manrope bg-body-bg">
     <!-- Header -->
-    <header class="pb-10 md:pb-24 px-8 md:px-32 bg-gradient-to-b from-[rgba(255,255,255,0)] to-[rgba(255,255,255,1)]">
+    <header class="pb-10 md:pb-24 px-5 md:px-32 bg-gradient-to-b from-[rgba(255,255,255,0)] to-[rgba(255,255,255,1)]">
         <!-- Navbar -->
         <nav>
             <div class="navbar py-8 md:py-12 px-0">
@@ -98,7 +101,7 @@
     <!-- Main -->
     <main class=>
         <!-- House type section -->
-        <section class="px-8 md:px-32 my-8 md:my-24">
+        <section class="px-5 md:px-32 my-8 md:my-24">
             <div class="flex flex-col md:flex-row gap-6 lg:gap-9">
                 <!-- Text Section -->
                 <div class="w-full md:w-1/2 space-y-4 md:space-y-6 flex flex-col justify-between relative">
@@ -135,7 +138,7 @@
             </div>
         </section>
         <!-- Work Process Section -->
-        <section class="px-8 md:px-32 my-8 md:my-24">
+        <section class="px-5 md:px-32 my-8 md:my-24">
             <div class="text-center space-y-4 md:space-y-5 mb-6 md:mb-8">
                 <div>
                     <a class="font-bold bg-white rounded-full px-4 py-2"><i class="fa-solid fa-arrow-right bg-white rounded-full p-1"></i> How We Work</a>
@@ -181,7 +184,7 @@
              </div>
         </section>
         <!-- Latest Portfolio Section -->
-        <section class="px-8 md:px-32 py-8 md:py-24 bg-transparent md:bg-white">
+        <section class="px-5 md:px-32 py-8 md:py-24 bg-transparent md:bg-white">
             <div class="text-center space-y-4 md:space-y-5 mb-4 md:mb-8">
                 <div>
                     <a class="font-bold bg-button-bg-op-2 rounded-full px-4 py-2"><i class="fa-solid fa-arrow-right bg-transparent rounded-full p-1"></i> Explore our Latest works</a>
@@ -241,8 +244,27 @@
             </div>
         </section>
         <!-- Next Project Section -->
-        <section>
-        
+        <section class="px-6 md:px-60 py-8 md:py-24 bg-[url('./assets/bg.JPG')] bg-cover">
+            <div class="text-center space-y-4 md:space-y-5 mb-4 md:mb-8">
+                <div>
+                    <a class="font-bold bg-button-bg-op-2 rounded-full px-4 py-2"><i class="fa-solid fa-arrow-right bg-transparent rounded-full p-1"></i> Let's Connect</a>
+                </div>
+                <h2 class="font-bold text-2xl md:text-4xl">Let’s Discuss Next Project</h2>
+                <p class="text-sm md:text-base text-neutral-600 md:px-60">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            </div>
+            <!-- Form Area -->
+             <div>
+                <form action="" class="">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-6 mb-5 md:mb-6">
+                        <input type="text" class="block h-14 md:h-16 rounded-full pl-5" placeholder="First Name*"> 
+                        <input type="text" class="block h-14 md:h-16 rounded-full pl-5" placeholder="Last Name*"> 
+                        <input type="text" class="block h-14 md:h-16 rounded-full pl-5" placeholder="Phone Number*">
+                        <input type="text" class="block h-14 md:h-16 rounded-full pl-5" placeholder="Email Number*"> 
+                    </div>
+                    <textarea name="" id="" placeholder="Write your message here" class="pt-5 pl-5 mb-6 md:mb-8 rounded-custom-32 w-full h-60"></textarea>
+                    <a class="btn rounded-full bg-button-bg font-bold text-xl w-full">Send Mail <i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white rounded-full p-1"></i></a>
+                </form>
+             </div>
         </section>
     </main>
     <!-- Footer -->
